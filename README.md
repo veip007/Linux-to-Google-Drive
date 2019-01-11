@@ -70,7 +70,7 @@ wget https://raw.githubusercontent.com/veip007/Linux-to-Google-Drive/master/goog
 ```
 
 修改以下部分：
-
+```
 第3行：my-database-name改为自己的数据库名
 第4行：my-database-user改为自己的数据库用户名
 第5行：my-database-password改为自己的数据库用户名对应的密码
@@ -78,7 +78,7 @@ wget https://raw.githubusercontent.com/veip007/Linux-to-Google-Drive/master/goog
 第8行：/home/wwwroot改为自己的网站所在目录（即需备份目录为/home/wwwroot/yourdomain.com）
 第9行：/backups改为备份文件存放目录
 第35行：youremail@yourdomain.com修改为自己的邮箱
-
+```
 
 2、创建定时任务
 
