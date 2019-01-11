@@ -94,7 +94,7 @@ vi  /etc/crontab
 
 以上备份脚本存放在/backups/下，每日2点备份。
 
-4、重启crontab
+3、重启crontab
 
 ```bash
 /etc/init.d/crond restart
