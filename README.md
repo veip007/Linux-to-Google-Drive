@@ -29,7 +29,7 @@ gdrive about
 gdrive程序会自动将你的token保存在用户目录下的.gdrive目录中，所以如果不需要了记得把这个文件删掉。
 
 ### 使用
-常用命令如下，更多查看gdrive官网：https://github.com/prasmussen/gdrive。
+常用命令如下，更多查看gdrive官网：https://github.com/prasmussen/gdrive
 
 1、列出Google Drive根目录下文件、文件夹
 
@@ -59,6 +59,12 @@ gdrive upload xxxx
 
 ```bash
 gdrive mkdir xxx
+```
+
+6、上传文件夹到Google Drive根目录下（xxx为文件夹名）
+
+```bash
+gdrive upload --recursive xxx
 ```
 
 ## 自动备份
